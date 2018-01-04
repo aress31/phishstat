@@ -43,7 +43,7 @@ $ cd phishstat
 ```
 The `MYSQL_USER` and `MYSQL_PASSWORD` global variable must be edited  within the script (line 34 and 35).
 
-### Usage
+## Usage
 ```
 $ python phishstat.py [-h] -c CLIENT -l APACHE_LOG -p PARAMETER -r EMAIL2REF -t
                     TARGET [-v]
