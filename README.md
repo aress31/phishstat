@@ -4,8 +4,6 @@
 
 This script structures the results obtained from Phishing engagements into a MySQL database and generates different types of statistics.
 
-![example](images/example.png)
-
 The database model used is as follows:
 * **Employee**: Holds information about the targetted `Employee` 
   * `client`
@@ -26,7 +24,7 @@ The database model used is as follows:
 
 The statistics are all generated into individual worksheets within a single `.xlsx` file, as shown in the following screenshot.
  
-![example1](images/example1.png)
+![example1](images/example.png)
 
 The following statistics are currently implemented:
 * `Click Types Per User`
