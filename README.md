@@ -24,7 +24,7 @@ The database model used is as follows:
 
 The statistics are all generated into individual worksheets within a single `.xlsx` file, as shown in the following screenshot.
  
-![example1](images/example.png)
+![example](images/example.png)
 
 The following statistics are currently implemented:
 * `Click Types Per User`
