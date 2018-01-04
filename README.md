@@ -74,11 +74,11 @@ $ python phishstat.py [-h] -c CLIENT -l APACHE_LOG -p PARAMETER -r EMAIL2REF -t
 
 ##### Target file expected formatting:
 ```
-aaaaa@mailserver.co.uk,Director
-bbbb@mailserver.co.uk,Technical
-cccc@mailserver.co.uk,Support
-dddd@mailserver.co.uk,Sale
-eeee@mailserver.co.uk,Other
+aaaaaaa@mailserver.co.uk,Director
+bbbbbb@mailserver.co.uk,Technical
+cccccc@mailserver.co.uk,Support
+dddddd@mailserver.co.uk,Sale
+eeeeee@mailserver.co.uk,Other
 ```
 
 ##### Email to reference file expected formatting:
