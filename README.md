@@ -47,15 +47,21 @@ The `MYSQL_USER` and `MYSQL_PASSWORD` global variable must be edited  within the
 
 ### Usage
 ```
-$ python phishstat.py [-h] -c CLIENT -l APACHE_LOG -p PARAM -r EMAIL2REF -t TARGET [-v]
+$ python phishstat.py [-h] -c CLIENT -l APACHE_LOG -p PARAMETER -r EMAIL2REF -t
+                    TARGET [-v]
 
-[-c, --client]:     client name
-[-l, --log]:        apache log
-[-p, --param]:      GET parameter used to identify the clicks
-[-r, --ref]:        file containing the email to ref associations
-[-t, --target]:     file containing the target details
-[-v, --verbose]:    enable verbose
-[-h, --help]:       display help
+-h, --help            show this help message and exit
+-c CLIENT, --client CLIENT
+                      name for the database storing the engagement results
+-l APACHE_LOG, --log APACHE_LOG
+                      Apache log file
+-p PARAMETER, --parameter PARAMETER
+                      GET parametereter used to identify each clicks
+-r EMAIL2REF, --ref EMAIL2REF
+                      file containing the email to reference
+-t TARGET, --target TARGET
+                      file containg the target details
+-v, --verbose         enable verbose mode
 ```
 ##### Apache log example:
 ```
@@ -79,11 +85,11 @@ eeee@mailserver.co.uk,Other
 
 ##### Email to reference file expected formatting:
 ```
-aaaa@mailserver.co.uk,KT4-EAC82
-bbbb@mailserver.co.uk,KT4-BDCB5
-cccc@mailserver.co.uk,KT4-C2AE6
-dddd@mailserver.co.uk,KT4-30747
-eeee@mailserver.co.uk,KT4-779D8
+aaaaaa@mailserver.co.uk,KT4-EAC82
+bbbbbb@mailserver.co.uk,KT4-BDCB5
+cccccc@mailserver.co.uk,KT4-C2AE6
+dddddd@mailserver.co.uk,KT4-30747
+eeeeee@mailserver.co.uk,KT4-779D8
 ```
 
 ## Possible Improvements
