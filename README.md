@@ -1,5 +1,8 @@
 ![phishstat](images/phishstat.png)
 # phishstat
+[![Language](https://img.shields.io/badge/Lang-Python-blue.svg)](https://www.python.org)
+[![License](https://img.shields.io/badge/License-Apache%202.0-red.svg)](https://opensource.org/licenses/Apache-2.0)
+
 ## Automating the generation of statistics obtained from Phishing engagements.
 
 This script structures the results obtained from Phishing engagements into a MySQL database and generates different types of statistics.
